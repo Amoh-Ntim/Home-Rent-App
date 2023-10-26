@@ -1,10 +1,13 @@
 import React from 'react'
-import { SafeAreaView, Text, View,Image, TextInput, TouchableOpacity } from 'react-native'
+import { SafeAreaView, Text, View,Image, TextInput, TouchableOpacity, ScrollView, } from 'react-native'
 import tw from "twrnc"
-
+import Press from './Press'
+import Houselarge from './Houselarge'
 
 const Home = () => {
   return (
+    <View>
+
     <SafeAreaView style={tw`p-2 pt-8`}>
       <Text>Location</Text>
       <Text style={tw`font-bold text-2xl`}>Accra</Text>
@@ -25,7 +28,25 @@ const Home = () => {
         <Image source={require('../assets/IC_Filter.png')}/>
       </TouchableOpacity>
     </View>
+
+    {/* horizontal scroll view */}
+    <View>
+      <Press />
+    </View>
+
+    <View style={tw`flex flex-row justify-between`}>
+    <View>
+        <Text style={tw`font-bold text-lg`}>Near from you</Text>
+    </View>
+    <View>
+        <Text style={tw`text-gray-500`}>See more</Text>
+    </View>
+    </View>
+     <View>
+      <Houselarge />
+     </View>
     </SafeAreaView>
+    </View>
   )
 }
 
