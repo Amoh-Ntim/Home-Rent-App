@@ -3,12 +3,13 @@ import { SafeAreaView, Text, View,Image, TextInput, TouchableOpacity, ScrollView
 import tw from "twrnc"
 import Press from './Press'
 import Houselarge from './Houselarge'
+import Best from './Best'
 
 const Home = () => {
   return (
     <View>
 
-    <SafeAreaView style={tw`p-2 pt-8`}>
+    <SafeAreaView style={tw`p-4 pt-12`}>
       <Text>Location</Text>
       <Text style={tw`font-bold text-2xl`}>Accra</Text>
       {/* serach bar */}
@@ -42,9 +43,23 @@ const Home = () => {
         <Text style={tw`text-gray-500`}>See more</Text>
     </View>
     </View>
+
      <View>
       <Houselarge />
      </View>
+
+     <View style={tw`flex flex-row justify-between`}>
+    <View>
+        <Text style={tw`font-bold text-lg`}>Best for you</Text>
+    </View>
+    <View>
+        <Text style={tw`text-gray-500`}>See more</Text>
+    </View>
+    </View>
+
+    <ScrollView>
+        <Best />
+    </ScrollView>
     </SafeAreaView>
     </View>
   )
