@@ -7,12 +7,22 @@ import Best from './Best'
 
 const Home = () => {
   return (
-    <View>
-
+    <View style={tw`flex-1`}>
     <SafeAreaView style={tw`p-4 pt-12`}>
-      <Text>Location</Text>
-      <Text style={tw`font-bold text-2xl`}>Accra</Text>
-      {/* serach bar */}
+    <View style={tw`flex flex-row justify-between`}>
+      <View>
+        <Text>Location</Text>
+        <Text style={tw`font-bold text-2xl`}>Accra</Text>
+      </View>
+      <View>
+      <TouchableOpacity>
+      <Image
+        source={require('../assets/IC_Notification.png')}
+      />
+      </TouchableOpacity>
+      </View>
+    </View>
+      {/* search bar */}
       <View style={tw`flex flex-row items-center bg-gray-100 p-2`}>
       <TouchableOpacity>
       <Image
