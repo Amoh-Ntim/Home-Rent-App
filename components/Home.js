@@ -45,6 +45,7 @@ const Home = () => {
       <Press />
     </View>
 
+    <ScrollView>
     <View style={tw`flex flex-row justify-between`}>
     <View>
         <Text style={tw`font-bold text-lg`}>Near from you</Text>
@@ -58,7 +59,6 @@ const Home = () => {
       <Houselarge />
      </View>
 
-    <ScrollView>
      <View style={tw`flex flex-row justify-between`}>
     <View>
         <Text style={tw`font-bold text-lg`}>Best for you</Text>
