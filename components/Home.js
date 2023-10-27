@@ -58,6 +58,7 @@ const Home = () => {
       <Houselarge />
      </View>
 
+    <ScrollView>
      <View style={tw`flex flex-row justify-between`}>
     <View>
         <Text style={tw`font-bold text-lg`}>Best for you</Text>
@@ -66,8 +67,8 @@ const Home = () => {
         <Text style={tw`text-gray-500`}>See more</Text>
     </View>
     </View>
-
-    <ScrollView>
+        <Best />
+        <Best />
         <Best />
     </ScrollView>
     </SafeAreaView>
