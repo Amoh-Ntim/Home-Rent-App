@@ -4,8 +4,10 @@ import tw from "twrnc"
 import Press from './Press'
 import Houselarge from './Houselarge'
 import Best from './Best'
+import { useNavigation } from '@react-navigation/native';
 
 const Home = () => {
+  const navigation = useNavigation();
   return (
     <View style={tw`flex-1`}>
     <SafeAreaView style={tw`p-4 pt-12`}>
@@ -35,7 +37,7 @@ const Home = () => {
         placeholder="Search address or near you"
       />
       {/* button */}
-      <TouchableOpacity>
+      <TouchableOpacity onPress={() => navigation.openDrawer()} >
         <Image source={require('../assets/IC_Filter.png')}/>
       </TouchableOpacity>
     </View>

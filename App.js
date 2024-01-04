@@ -1,18 +1,19 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
+import { createDrawerNavigator } from '@react-navigation/drawer';
+// import { createDrawerNavigator } from '@react-navigation/Drawer';
 import Home from './components/Home';
 import Details from './components/Details';
 
-const Stack = createStackNavigator();
+const Drawer = createDrawerNavigator();
 
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Home">
-        <Stack.Screen name="Home" component={Home} options={{ headerShown: false }}/>
-        <Stack.Screen name="Details" component={Details} options={{ headerShown: false }}/>
-      </Stack.Navigator>
+      <Drawer.Navigator initialRouteName="Home">
+        <Drawer.Screen name="Home" component={Home} options={{ headerShown: false }}/>
+        <Drawer.Screen name="Details" component={Details} options={{ headerShown: false }}/>
+      </Drawer.Navigator>
     </NavigationContainer>
   );
 }
