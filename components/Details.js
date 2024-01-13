@@ -42,19 +42,15 @@ const Details = () => {
         <View style={tw`flex flex-row justify-around items-center`}>
         <Image
             source={require('../assets/Image30.png')}
-            style={tw``}
           />
           <Image
             source={require('../assets/Image36.png')}
-            style={tw``}
           />
           <Image
             source={require('../assets/Image32.png')}
-            style={tw``}
           />
           <Image
             source={require('../assets/Overlay.png')}
-            style={tw``}
           />
         </View>
       </View>
