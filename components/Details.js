@@ -58,7 +58,6 @@ const Details = () => {
           />
         </View>
       </View>
-
       {/* map */}
       <View style={tw`relative`}>
   <Image
@@ -79,7 +78,6 @@ const Details = () => {
     </View>
   </View>
 </View>
-
     </ScrollView>
     </SafeAreaView>
     </View>
