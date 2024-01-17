@@ -10,7 +10,6 @@ const Details = () => {
     <View style={tw`flex justify-center items-center`}>
       <Image
         source={require('../assets/House.png')}
-        style={tw``}
       />
     </View>
     <View>
