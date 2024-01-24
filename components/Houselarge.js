@@ -22,11 +22,9 @@ const Houselarge = () => {
         />
         <Image
           source={require('../assets/Dreamsvile_House.png')}
-          style={tw``}
         />
         <Image
           source={require('../assets/Dreamsvile_House.png')}
-          style={tw``}
         />
       </ScrollView>
     </View>
