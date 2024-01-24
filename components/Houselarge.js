@@ -12,16 +12,13 @@ const Houselarge = () => {
         <TouchableOpacity onPress={() => navigation.navigate('Details')}>
           <Image
             source={require('../assets/Dreamsvile_House.png')}
-            style={tw``}
           />
         </TouchableOpacity>
         <Image
           source={require('../assets/Dreamsvile_House.png')}
-          style={tw``}
         />
         <Image
           source={require('../assets/Dreamsvile_House.png')}
-          style={tw``}
         />
         <Image
           source={require('../assets/Dreamsvile_House.png')}
