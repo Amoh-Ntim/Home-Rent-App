@@ -67,8 +67,6 @@ const Best = () => {
       </View>
     </View> 
     </View>
-    
-    
 
     </View>
     </ScrollView>
