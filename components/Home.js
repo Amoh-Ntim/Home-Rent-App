@@ -24,6 +24,7 @@ const Home = () => {
       </TouchableOpacity>
       </View>
     </View>
+    
       {/* search bar */}
       <View style={tw`flex flex-row items-center bg-gray-100 p-2`}>
       <TouchableOpacity>
@@ -36,6 +37,7 @@ const Home = () => {
         style={tw`flex-grow`}
         placeholder="Search address or near you"
       />
+
       {/* button */}
       <TouchableOpacity onPress={() => navigation.openDrawer()} >
         <Image source={require('../assets/IC_Filter.png')}/>
