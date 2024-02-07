@@ -4,7 +4,6 @@ import tw from "twrnc"
 const Best = () => {
   return (
     <ScrollView>
-
     <View>
     {/* first view */}
     <View style={tw`flex flex-row`}>
