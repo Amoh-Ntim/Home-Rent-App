@@ -14,7 +14,7 @@ const Best = () => {
     </View>
     {/* text beside image */}
     <View>
-      <Text style={tw`font-bold text-xl`}>Orchad House</Text>
+      <Text style={tw`font-bold text-xl`}>Orchad-House</Text>
       <Text style={tw`font-bold text-blue-400`}>Rp. 2.500.000.000 / Year</Text>
 
       <View style={tw`flex flex-row`}>
