@@ -6,7 +6,6 @@ import Houselarge from './Houselarge'
 import Best from './Best'
 import { useNavigation } from '@react-navigation/native';
 
-
 const Home = () => {
   const navigation = useNavigation();
   return (
