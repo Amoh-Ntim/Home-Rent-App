@@ -67,6 +67,7 @@ const Home = () => {
     <View>
         <Text style={tw`font-bold text-lg`}>Best for you</Text>
     </View>
+    
     <View>
         <Text style={tw`text-gray-500`}>See more</Text>
     </View>
